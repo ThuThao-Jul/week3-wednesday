@@ -1,0 +1,45 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: #E4FBFF;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    
+}
+.button{
+    text-align: right;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+.updated{
+    font-size: small;
+}
+.description{
+    font-weight: normal;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.content{
+    /* border: 1px solid red; */
+    text-align:justify;
+}
+.article{
+    margin-left: auto;
+    margin-right: auto;
+}
+#languages{
+    text-align: right;
+}
+#title{
+    font-family: 'Tourney', cursive;
+    color: red;
+    font-size: 8vh;
+}
+#categories{
+    text-align: center;
+}
