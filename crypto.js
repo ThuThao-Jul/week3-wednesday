@@ -13,7 +13,6 @@ const cryptoURL =
 
 // getCryptoPrices()
 
-//làm sao có idea ra đc các function này?
 
 
 async function getCryptoPrices() {
@@ -51,8 +50,8 @@ let i=0;
   function renderLineGraph(coin) {
       
     const ctx = document.getElementById("myChart");
-    const price = coin[0].quote.USD.price; //đang là price của Bitcoin mà sao các coin khác vẫn chạy ra số đúng?
-    const [ninetyAgoPrice] = getHistoricPrices(coin[0].quote.USD); //là gì đây?
+    const price = coin[0].quote.USD.price; 
+    const [ninetyAgoPrice] = getHistoricPrices(coin[0].quote.USD); 
     const timeAgo = ["90d", "60d", "30d", "7d", "24h", "1h", "Current"];
     const myChart = new Chart(ctx, {
       type: "line",
